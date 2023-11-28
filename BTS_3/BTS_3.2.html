@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <meta charset="UTF-8">
+        <title>BTS_3.2</title>
+    </head>
+    <body>
+        <div class="container-fluid bg-primary pb-1">
+            <h1>IMMAGINI, JUMBOTRONS, ALERTS, BUTTONS E DROPDOWNS</h1>
+            <h4 class="text-light">Esercizio BTS_3.2</h4>
+        </div>
+        <div class="container-fluid pt-3">
+            <div class="mt-4 p-5 bg-info text-white rounded"> <!-- JUMBOTRON -->
+                <h1>Jumbotron</h1>
+                <p class="fs-4">Qui di seguito si trovano 3 immagini poste a sinistra, centro e destra e rispettivamente sono, una in un cerchio, la seconda in un thumbnail e l'ultima è coi bordi stondati.</p>
+              </div>
+              <br>
+              <br>
+            <div class="row">
+                <div class="col-4 float-start"> <!-- PRIMA IMMAGINE -->
+                    <img src="IMG_3.2/I_pinguini_di_Madagascar.jpg" class="rounded-circle" class="mx-auto" width="304" height="236">
+                </div>
+                <div class="col-4 text-center"> <!-- SECONDA IMMAGINE -->
+                    <img src="IMG_3.2/Madagascar2-2008.jpg" class="img-thumbnail"  width="304" height="236">
+                </div>
+                
+                <div class="col-4"> <!-- TERZA IMMAGINE -->
+                    <div class="float-end">
+                        <img src="IMG_3.2/EWKA_Ninja_Turtles_Mutant_Mayhem2.jpg" class="rounded" width="300" height="200">
+                    </div>
+                </div> 
+            </div>
+            <br>
+            <br>
+            <div class="alert alert-success alert-dismissible fade show"> <!-- ALERT -->
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                <strong>Vuoi ritornare all'inizio della pagina?  </strong> <a href="#" class="alert-link">Clicca qui!</a>
+              </div>
+              <h3>I BOTTONI</h3>
+              <br>
+              <div class="col-*-12"> <!-- I BOTTONI NORMALI -->
+                <div class="row">
+                    <div class="col-xl-1 col-*-12">
+                        <button type="button" class="btn btn-outline-primary">Bottone</button>
+                    </div>
+                    <div class="col-xl-1 col-*-12">
+                        <button type="button" class="btn btn-outline-warning">Bottone</button>
+                    </div>
+                    <div class="col-xl-1 col-*-12">
+                        <button type="button" class="btn btn-outline-success">Bottone</button>
+                    </div>
+                    <div class="col-xl-1 col-*-12">
+                        <button type="button" class="btn btn-outline-dark">Bottone</button>
+                    </div>
+              </row>
+              </div>
+            </div>
+            <div class="d-grid gap-3 pt-3"> <!-- I BOTTONI CON MASSIMA LARGHEZZA -->
+                <button type="button" class="btn btn-primary btn-block">Bottone con massima larghezza</button>
+                <button type="button" class="btn btn-warning btn-block">Bottone con massima larghezza</button>
+                <button type="button" class="btn btn-success btn-block">Bottone con massima larghezza</button>
+                <button type="button" class="btn btn-dark btn-block">Bottone con massima larghezza</button>
+            </div>
+            <br>
+            <h3>DROPDOWN CON INSIEME DI BOTTONI</h3>
+            <div class="btn-group-vertical pt-1 pb-1"> <!-- DROPDOWN CON INSIEME DI BOTTONI (VERTICALE) -->
+                <button type="button" class="btn btn-primary">Bloodborne</button>
+                <button type="button" class="btn btn-primary">Elden Ring</button>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dark Souls</button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Dark Souls I</a></li>
+                    <li><a class="dropdown-item" href="#">Dark Souls II</a></li>
+                    <li><a class="dropdown-item" href="#">Dark Souls III</a></li>
+                  </ul>
+                </div>
+              </div>
+        </div>
+    </body> 
+</html>
