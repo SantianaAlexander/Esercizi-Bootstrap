@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+.head {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+.txt1 {
+    font-family: 'Fira Sans', sans-serif;
+}
+#id {
+    font-family: 'Fira Sans', sans-serif;
+}
+.p_collapse {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+}
+.ita_txt {
+    font-style: italic; 
+}
